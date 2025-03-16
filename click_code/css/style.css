@@ -1,0 +1,107 @@
+.section1 {
+    transform: scale(0.95);
+    transition: all .3s ease-in-out;
+}
+
+.section1:hover {
+    transform: scale(1);
+}
+
+.section2 {
+    transform: scale(0.95);
+    transition: all .3s ease-in-out;
+}
+
+.section2:hover {
+    transform: scale(1);
+}
+
+.section3 {
+    transform: scale(0.95);
+    transition: all .3s ease-in-out;
+}
+
+.section3:hover {
+    transform: scale(1);
+}
+
+.container-cards1{
+    position: relative;
+    height: 100%;
+}
+
+
+.cards1 {
+    transform: scale(0.98);
+    transition: all .3s ease-in-out;
+}
+
+.cards1:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+    transform: scale(1);
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2lanjutan {
+    text-align: justify;
+}
+
+.span1 {
+    font-size: 16px;
+}
+
+.cards-text1{
+    font-size: 16px;
+}
+
+.h2-1 {
+    background-color: aqua;
+}
+
+.button1 {
+    border: none;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: rgb(15, 15, 15);
+    background-color: rgba(128, 128, 128, 0.2);
+    transition: all .3s ease-in-out;
+}
+
+.button1:hover {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.button1:active{
+    transform: scale(0.9);
+}
+
+.hr1 {
+    margin-top: 20px;
+    color : rgba(128, 128, 128, 0.2);
+}
+
+.ul1 {
+    list-style-type: none;
+    padding-top: 20px;
+
+}
+
+.li1 {
+    list-style-type: circle;
+    padding-top: 15px;
+    font-size: 15px;
+}
